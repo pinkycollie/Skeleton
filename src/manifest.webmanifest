@@ -1,8 +1,8 @@
 {
-  "name": "sign",
-  "short_name": "Sign Translate",
+  "name": "skeleton",
+  "short_name": "Skeleton Translate",
   "scope": "/",
-  "id": "sign.mt",
+  "id": "pinkycollie.skeleton",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#3F51B5",
