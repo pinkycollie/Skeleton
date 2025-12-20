@@ -1,4 +1,4 @@
-# `sign`/docs
+# Skeleton Documentation (Fork of sign.mt)
 
 ## Contribute
 
@@ -7,8 +7,12 @@ You can edit files directly on GitHub ([Tutorial](https://docs.github.com/en/rep
 or clone the repository to get an instant preview using:
 
 ```bash
-git clone https://github.com/sign/translate.git
-cd translate/docs
+git clone https://github.com/pinkycollie/Skeleton.git
+cd Skeleton/docs
 npm install
 npm run docs:dev
 ```
+
+## Original Project
+
+This is a fork of the original [sign/translate](https://github.com/sign/translate) project (sign.mt).

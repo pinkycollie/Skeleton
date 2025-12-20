@@ -133,7 +133,9 @@ npx cap run ios
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/get-npm
 
-### Cite
+### Cite Original Work
+
+To cite the original sign.mt project:
 
 ```bibtex
 @misc{moryossef2023signmt,
@@ -143,3 +145,5 @@ npx cap run ios
     year={2023}
 }
 ```
+
+This repository (pinkycollie/Skeleton) is a fork of the original project.
