@@ -1,4 +1,6 @@
-# License for [`sign.mt`](https://sign.mt)
+# License for Skeleton (Fork of [`sign.mt`](https://sign.mt))
+
+This project is a fork of the original `sign.mt` project.
 
 The license for `sign.mt` is divided into two tiers, based on the type of your legal entity.
 Individuals, non-profit organizations, and educational institutions are permitted to use `sign.mt` for sign language translation without charge,
@@ -17,6 +19,7 @@ Please review the following license terms carefully to determine which license a
 ## Free license
 
 Copyright (c) 2022 sign.mt ltd
+Forked by pinkycollie/Skeleton
 
 ### [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 

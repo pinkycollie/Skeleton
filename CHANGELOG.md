@@ -1,8 +1,12 @@
 # Changelog
 
-This file is used to list important changes made over time to `sign/translate`.
+This file is used to list important changes made over time to `pinkycollie/Skeleton` (forked from `sign/translate`).
 
 ## Unreleased
+
+### Fork Information
+
+This project was forked from [sign/translate](https://github.com/sign/translate) (sign.mt) to create an independent version.
 
 ### 0.0.4: Nagish Migration (2025/10/22)
 
