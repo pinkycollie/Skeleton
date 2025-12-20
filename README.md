@@ -30,7 +30,7 @@
   <a href="https://github.com/pinkycollie/Skeleton/network/members" target="_blank">
     <img src="https://img.shields.io/github/forks/pinkycollie/Skeleton" alt="GitHub Forks for pinkycollie/Skeleton" />
   </a>
-  <a href="https://github.com/pinkycollie/Skeleton/stargazers" target="_blank">
+  <a href="https://github.com/pinkycollie/Skeleton/graphs/contributors" target="_blank">
     <img src="https://img.shields.io/github/contributors/pinkycollie/Skeleton" alt="GitHub Contributors for pinkycollie/Skeleton" />
   </a>
   <a href="https://github.com/pinkycollie/Skeleton/issues" target="_blank">
