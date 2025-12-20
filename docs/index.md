@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: 'sign.mt Docs'
+  name: 'Skeleton Docs'
   text: 'Documentation and Blog'
-  tagline: 'A collection of resources on sign languages, deaf culture, and our technology.'
+  tagline: 'A collection of resources on sign languages, deaf culture, and our technology. (Forked from sign.mt)'
   actions:
     - theme: brand
       text: Docs
