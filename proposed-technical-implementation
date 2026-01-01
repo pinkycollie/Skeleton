@@ -1,0 +1,114 @@
+## **A. Adjustable Signing Speed**
+
+### 1. Add a playback‑rate multiplier  
+Inside the signing animation engine (likely WebGL, Three.js, or a custom renderer):
+
+```ts
+let playbackRate = 1.0 // default
+
+function setSigningSpeed(rate: number) {
+  playbackRate = rate
+}
+```
+
+### 2. Apply multiplier to animation frames  
+Wherever the avatar advances frames:
+
+```ts
+currentFrame += deltaTime * playbackRate
+```
+
+### 3. Expose UI controls  
+- Slow = `0.6x`  
+- Normal = `1.0x`  
+- Fast = `1.4x`  
+
+---
+
+## **B. Highlighting the Currently Signed Word**
+
+### 1. Track the active word index  
+When the model outputs token timing:
+
+```ts
+state.activeWordIndex = timing.currentWord
+```
+
+### 2. Update UI  
+Wrap each word in a span:
+
+```html
+<span class="word" data-index="0">Hello</span>
+<span class="word active" data-index="1">world</span>
+```
+
+### 3. Style the active word  
+```css
+.word.active {
+  background: #ffe58a;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+```
+
+### 4. Sync timing  
+Use timestamps from the signing model to update the highlight in real time.
+
+---
+
+# 🎨 **4. UX Mockup (Text‑Based)**
+
+Here’s a simple mockup you can paste into GitHub:
+
+```
++------------------------------------------------------+
+|  Signing Avatar                                      |
+|                                                      |
+|   [   avatar signing animation here   ]              |
+|                                                      |
++------------------------------------------------------+
+
+Signing Speed:
+[ Slow ]  [ Normal ]  [ Fast ]
+
+Detected Text:
+Hello   <world>   this   is   a   test
+         ^ highlighted word
+
+Notes:
+- Speed buttons update playback rate instantly
+- Highlight moves in sync with each signed word
+- Works during live translation or replay
+```
+
+This is exactly the kind of mockup maintainers like: simple, clear, and implementation‑friendly.
+
+---
+
+# 🙋‍♀️ **5. Contributor Introduction Message**
+
+Here’s a friendly intro message you can post in the repo’s Discussions or PR:
+
+---
+
+Hi everyone! My name is Pinky, and I’m excited to contribute to this project. I’m passionate about Deaf accessibility, ASL learning tools, and inclusive design. I’ve been exploring the signing model and would love to help improve usability for new learners and late‑deafened adults.
+
+I’m especially interested in:
+
+- accessibility features  
+- UI/UX improvements  
+- ASL learning support  
+- real‑time translation enhancements  
+
+I’m happy to collaborate, test features, or contribute code where helpful. Looking forward to working with you all!
+
+---
+
+If you want, I can also generate:
+
+- a full PR branch structure  
+- code snippets for React, Vue, or Svelte  
+- a full accessibility audit  
+- a roadmap for ASL‑learning features  
+
+Just tell me what direction you want to go next.
