@@ -67,7 +67,7 @@
     "@capacitor/splash-screen": "8.0.0",
     "@ctrl/ngx-github-buttons": "9.0.0",
     "@google/model-viewer": "4.1.0",
-    "@ionic/angular": "8.7.14",
+    "@ionic/angular": "8.7.17",
     "@jsverse/transloco": "8.2.0",
     "@mediapipe/drawing_utils": "0.3.1675466124",
     "@mediapipe/holistic": "0.5.1675471629",
