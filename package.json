@@ -59,7 +59,7 @@
     "@capacitor-firebase/storage": "8.0.1",
     "@capacitor/android": "8.0.0",
     "@capacitor/clipboard": "8.0.0",
-    "@capacitor/core": "8.0.0",
+    "@capacitor/core": "8.0.1",
     "@capacitor/filesystem": "8.0.0",
     "@capacitor/ios": "8.0.0",
     "@capacitor/keyboard": "8.0.0",
