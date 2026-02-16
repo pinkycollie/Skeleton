@@ -57,7 +57,7 @@
     "@capacitor-firebase/crashlytics": "8.0.1",
     "@capacitor-firebase/performance": "8.0.1",
     "@capacitor-firebase/storage": "8.0.1",
-    "@capacitor/android": "8.0.0",
+    "@capacitor/android": "8.0.1",
     "@capacitor/clipboard": "8.0.0",
     "@capacitor/core": "8.0.1",
     "@capacitor/filesystem": "8.0.0",
